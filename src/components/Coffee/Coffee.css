@@ -1,0 +1,19 @@
+.sugar-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.syrup,
+.size {
+  cursor: pointer;
+}
+.coffee-div {
+  background: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+.coffees {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+.coffees-title {
+  margin-bottom: 50px;
+  color: #d8d8d8;
+}

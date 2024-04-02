@@ -1,0 +1,39 @@
+.basketItem-desc {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.basketItem-desc p {
+  margin: 0;
+}
+
+.basketItem-desc p:nth-child(3)::after {
+  content: ",";
+  margin-right: 3px;
+}
+
+.basketItem-desc p:last-child::after {
+  content: "";
+}
+
+.basket-item {
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-container button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.btn-container button:hover {
+  background: rgb(202, 202, 202);
+}
